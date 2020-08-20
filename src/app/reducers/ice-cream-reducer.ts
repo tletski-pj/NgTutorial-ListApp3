@@ -7,7 +7,6 @@ const initialState: IceCream = {
     maker: 'Honey Hut'
 }
 
-// export const iceCreamReducer = createReducer<IceCream[]>(
 export const iceCreamReducer = createReducer<IceCream[]>(
     [initialState],
     on(AddFlavor, (state, action) => {
