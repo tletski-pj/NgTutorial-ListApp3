@@ -1,8 +1,7 @@
-
-export class IceCream {
-    constructor(
-        public flavor: string,
-        public maker: string) {}
+export interface IceCream {
+    flavor: string;
+    maker: string;
 }
+
 
 
